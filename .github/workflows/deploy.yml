@@ -16,8 +16,6 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - run: yarn workspace client build
 
-      - run: ls -al packages/client
-
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
