@@ -1,4 +1,4 @@
-FROM go:1.19.4-alpine3.16
+FROM alpine:latest
 
 WORKDIR /home
 
