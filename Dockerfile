@@ -5,7 +5,7 @@ WORKDIR /home
 COPY main/main.go /home/main/main.go
 COPY packages/client/build/ /home/public
 
-RUN go build -o /home/server main/main.go
-RUN go install /home/server
+RUN go build -o server main/main.go
+RUN go install
 
 CMD ["server"]
