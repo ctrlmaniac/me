@@ -4,4 +4,4 @@ WORKDIR /home
 
 RUN go install github.com/ctrlmaniac/me@latest
 
-CMD ["server"]
+CMD ["me"]
