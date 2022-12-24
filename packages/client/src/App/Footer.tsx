@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         <Box sx={{ mb: 2 }}>
           <Button
             variant="outlined"
-            href="https://github.com/ctrlmaniac/ctrlmaniac.me"
+            href="https://github.com/ctrlmaniac/me"
             target="_blank"
           >
             inspect source-code
