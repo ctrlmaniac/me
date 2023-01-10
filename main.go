@@ -8,7 +8,7 @@ import (
 
 func main() {
 	r := mux.NewRouter()
-	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir("public/"))))
+	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir("dist/"))))
 
 	http.ListenAndServe(":8001", r)
 }
