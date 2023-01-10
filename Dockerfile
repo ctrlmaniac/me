@@ -8,6 +8,6 @@ COPY main.go /home/main.go
 
 RUN go build -o server
 
-COPY packages/client/build/ /home/public
+COPY dist /home/dist
 
 CMD ["/home/server"]
