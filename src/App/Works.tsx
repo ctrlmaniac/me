@@ -32,6 +32,7 @@ const Works: React.FC = () => {
           direction="row"
           justifyContent="center"
           alignItems="center"
+          spacing={2}
         >
           <Grid item xs={12} sm={6}>
             <Card>
@@ -62,6 +63,44 @@ const Works: React.FC = () => {
                   fullWidth
                   color="secondary"
                   href="https://github.com/ctrlmaniac/larapida"
+                  target="_blank"
+                  aria-label="source-code of larapidamolinetto.com"
+                >
+                  View Source-code
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} sm={6}>
+            <Card>
+              <CardMedia
+                component="img"
+                height="240"
+                image="https://minigest.ctrlmaniac.me/assets/ogimage.png"
+                alt="minigest"
+              />
+              <CardContent>
+                <Typography>
+                  A small application to manage incomes, outcomes and taxes for
+                  small businesses
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button
+                  fullWidth
+                  variant="contained"
+                  color="primary"
+                  href="https://minigest.ctrlmaniac.me"
+                  target="_blank"
+                  aria-label="link to minigest"
+                >
+                  View website
+                </Button>
+                <Button
+                  fullWidth
+                  color="secondary"
+                  href="https://github.com/ctrlmaniac/minigest"
                   target="_blank"
                   aria-label="source-code of larapidamolinetto.com"
                 >
