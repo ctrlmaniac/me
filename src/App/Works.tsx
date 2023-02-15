@@ -11,9 +11,6 @@ import {
 } from "@mui/material";
 import { View } from "../Components";
 
-// Works wallpaper
-import larapida from "../assets/works/larapida.webp";
-
 const Works: React.FC = () => {
   return (
     <View>
@@ -39,7 +36,7 @@ const Works: React.FC = () => {
               <CardMedia
                 component="img"
                 height="240"
-                image={larapida}
+                image="https://larapidamolinetto.com/static/www/ogimage.png"
                 alt="la rapida"
               />
               <CardContent>
