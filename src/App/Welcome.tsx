@@ -14,11 +14,8 @@ const Welcome: React.FC = () => {
         />
         <Typography variant="h3">Davide Di Criscito</Typography>
         <Typography variant="h4" gutterBottom>
-          Artisan, full-stack web developer.
-        </Typography>
-        <Typography variant="h6" gutterBottom>
-          Currently Artisan at <strong>La Rapida di Davide Di Criscito</strong>,
-          soon-to-be a full-stack web developer.
+          Full-Stack web developer. Eager to learn new things, always with one
+          new project in mind, passionate about programming with computers.
         </Typography>
         <Chip color="primary" label="JavaScript" />{" "}
         <Chip color="primary" label="Python" />{" "}

@@ -14,10 +14,7 @@ const About: React.FC = () => {
             I'm Davide Di Criscito, I was born on may 23rd 1990 in Brescia,
             Italy!
           </Typography>
-          <Typography>
-            I'm a full-stack web developer currently working for my own business
-            as Artisan.
-          </Typography>
+          <Typography>I'm a full-stack web developer.</Typography>
           <Typography>
             I develop applications for the web including full front-end design.
           </Typography>
