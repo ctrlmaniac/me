@@ -36,7 +36,7 @@ const Works: React.FC = () => {
               <CardMedia
                 component="img"
                 height="240"
-                image="https://larapidamolinetto.com/static/www/ogimage.png"
+                image="https://larapidamolinetto.com/static/client/ogimage.png"
                 alt="la rapida"
               />
               <CardContent>
