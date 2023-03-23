@@ -1,7 +1,0 @@
-name: ctrlmaniac-me
-services:
-  app:
-    container_name: ctrlmaniac-me-app
-    image: ctrlmaniac/me:latest
-    ports:
-      - "8001:8001"
